@@ -10,8 +10,8 @@ import (
 	clog "github.com/coredns/coredns/plugin/pkg/log"
 	"github.com/coredns/coredns/request"
 
+	"github.com/giantswarm/unbound"
 	"github.com/miekg/dns"
-	"github.com/miekg/unbound"
 )
 
 var log = clog.NewWithPlugin("unbound")
